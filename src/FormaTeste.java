@@ -9,6 +9,7 @@ public class FormaTeste {
 		formas[1] = new Quadrado(5);
 		formas[2] = new Triangulo(6);
 		formas[3] = new Esfera(7);
+		formas[4] = new Cubo(5);
 		
 		for(Forma formaAtual : formas) {
 			

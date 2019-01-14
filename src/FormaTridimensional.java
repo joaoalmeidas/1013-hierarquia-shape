@@ -16,6 +16,12 @@ public abstract class FormaTridimensional extends Forma{
 		this.z = z;
 	}
 	
+	@Override
+	public String toString() {
+		return String.format("%s"
+				+ "Volume: %.1f%n", super.toString(), getVolume());
+	}
+	
 	public abstract double getVolume();
 	
 	

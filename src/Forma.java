@@ -31,6 +31,15 @@ public abstract class Forma {
 		this.y = y;
 	}
 	
+	public String toString() {
+		
+		return String.format("Altura: %d%n"
+				+ "Largura: %d%n"
+				+ "Area: %d%%n",
+				getY(), getX(), calculaArea());
+		
+	}
+	
 	
 	public abstract double calculaArea();
 	

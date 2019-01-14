@@ -12,6 +12,9 @@ public class Circulo extends FormaBidimensional {
 		
 	}
 	
-	
-
+	@Override
+	public String toString() {
+		return String.format("%s"
+				+ "Raio: %d%n", super.toString());
+	}
 }

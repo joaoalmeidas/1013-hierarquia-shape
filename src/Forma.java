@@ -33,9 +33,10 @@ public abstract class Forma {
 	
 	public String toString() {
 		
-		return String.format("Altura: %d%n"
-				+ "Largura: %d%n"
-				+ "Area: %d%%n",
+		return String.format("%s%n"
+				+ "Altura: %.1f%n"
+				+ "Largura: %.1f%n"
+				+ "Area: %.1f%n",getClass().getSimpleName(),
 				getY(), getX(), calculaArea());
 		
 	}

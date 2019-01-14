@@ -7,6 +7,8 @@ public class FormaTeste {
 		
 		formas[0] = new Circulo(3);
 		formas[1] = new Quadrado(5);
+		formas[2] = new Triangulo(6);
+		formas[3] = new Esfera(7);
 		
 		for(Forma formaAtual : formas) {
 			
